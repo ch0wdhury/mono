@@ -29,8 +29,8 @@
 		width: 100%;
 	}
 	.second_text img {
-		width: 110px;
-		margin-top: 15px;
+		width: 90px;
+		margin-top: 12px;
 	}
 	.third_text p {
 		font-size: 12px;
@@ -92,7 +92,7 @@
 		margin-bottom: 100px;
 	}
 	.second_text img {
-		width: 60%;
+		width: 40%;
 		margin-top: 10px;
 	}
 	.third_text p {
@@ -148,7 +148,8 @@
 		width: 90%;
 	}
 	.second_text img {
-		width: 50%;
+		width: 35%;
+		margin-top: 10px;
 	}
 	.third_text p {
 		font-size: 16px;
@@ -197,6 +198,10 @@
 	}
 	.second_text h4 {
 		font-size: 16px;
+	}
+	.second_text img {
+		width: 25%;
+		margin-top: 10px;
 	}
 	.third_text p {
 		font-size: 16px;
