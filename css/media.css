@@ -1,0 +1,232 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	body {
+		background-image: url(../images/bg-blue-550.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		min-height: 100%;
+	}
+	header {
+		background-color: #000;
+		padding: 10px 0;
+	}
+	.navbar-brand img {
+		width: 7%;
+	}
+	.navbar-brand {
+		font-size: 16px;
+		padding-top: 0;
+	}
+	.main_header_text h1 {
+		margin-top: 70px;
+		font-size: 30px;
+		width: 100%;
+	}
+	.second_text h4 {
+		font-size: 12px;
+		margin-bottom: 60px;
+		width: 100%;
+	}
+	.second_text img {
+		width: 110px;
+		margin-top: 15px;
+	}
+	.third_text p {
+		font-size: 12px;
+		margin-bottom: 70px;
+		width: 100%;
+	}
+	.footer_text {
+		border-right: none;
+		padding-right: 0;
+		border-left: 3px solid #30314A;
+		padding-left: 10px;
+		margin-bottom: 70px;
+		font-size: 12px;
+		width: 100%;
+	}
+	.footer_text p {
+		font-size: 12px;
+	}
+	.footer_text h6 {
+		font-size: 12px;
+	}
+	.footer_icons {
+		padding-bottom: 40px;
+	}
+	.footer_icons ul li a {
+		font-size: 14px;
+		padding: 6px 8px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	body {
+		background-image: url(../images/bg-blue-550.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		min-height: 100%;
+	}
+	header {
+		background-color: #000;
+		padding: 15px 0;
+	}
+	.navbar-brand img {
+		width: 5%;
+	}
+	.navbar-brand {
+		font-size: 18px;
+		padding-top: 0;
+	}
+	.main_header_text h1 {
+		width: 100%;
+		margin-top: 100px;
+		font-size: 30px;
+	}
+	.second_text h4 {
+		width: 100%;
+		font-size: 14px;
+		margin-bottom: 100px;
+	}
+	.second_text img {
+		width: 60%;
+		margin-top: 10px;
+	}
+	.third_text p {
+		width: 100%;
+		font-size: 14px;
+		margin-bottom: 100px;
+	}
+	.footer_text {
+		border-right: none;
+		padding-right: 0;
+		border-left: 3px solid #30314A;
+		padding-left: 10px;
+		margin-bottom: 100px;
+		font-size: 14px;
+		width: 80%;
+	}
+	.footer_text p {
+		font-size: 12px;
+	}
+	.footer_text h6 {
+		font-size: 12px;
+	}
+	.footer_icons {
+		padding-bottom: 40px;
+	}
+	.footer_icons ul li a {
+		font-size: 13px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	body {
+		background-image: url(../images/bg-blue-750.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		min-height: 100%;
+	}
+	.navbar-brand img {
+		width: 3%;
+	}
+	.navbar-brand {
+		font-size: 20px;
+	}
+	.main_header_text h1 {
+		margin-top: 100px;
+		font-size: 30px;
+		width: 90%;
+	}
+	.second_text h4 {
+		font-size: 16px;
+		margin-bottom: 100px;
+		width: 90%;
+	}
+	.second_text img {
+		width: 50%;
+	}
+	.third_text p {
+		font-size: 16px;
+		margin-bottom: 100px;
+		width: 90%;
+	}
+	.footer_text {
+		border-right: none;
+		padding-right: 0;
+		border-left: 3px solid #30314A;
+		padding-left: 10px;
+		margin-bottom: 50px;
+	}
+	.footer_text p {
+		font-size: 12px;
+	}
+	.footer_text h6 {
+		font-size: 12px;
+	}
+	.footer_icons {
+		padding-bottom: 40px;
+	}
+	.footer_icons ul li a {
+		font-size: 14px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	body {
+		background-image: url(../images/bg-blue-1050.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		min-height: 100%;
+	}
+	.navbar-brand img {
+		width: 4%;
+	}
+	.navbar-brand {
+		font-size: 18px;
+	}
+	.main_header_text h1 {
+		margin-top: 110px;
+		font-size: 24px;
+	}
+	.second_text h4 {
+		font-size: 16px;
+	}
+	.third_text p {
+		font-size: 16px;
+		margin-bottom: 110px;
+	}
+	.footer_text p {
+		font-size: 12px;
+	}
+	.footer_text h6 {
+		font-size: 14px;
+	}
+	.footer_icons {
+		padding-bottom: 20px;
+	}
+	.footer_icons ul li a {
+		font-size: 14px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1499.98px) {
+	body {
+		background-image: url(../images/bg-blue-1250.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 100%;
+	}
+}
+/* Extra large devices (large desktops, 1500px and up) */
+@media (min-width: 1500px) {
+
+}
